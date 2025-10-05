@@ -1,122 +1,45 @@
 # Aarambha Mahotsava 2025 - Sarala Birla University
 
-A production-ready, responsive, animated website for **Aarambha Mahotsava 2025** (Sarala Birla University). This website showcases the grand celebration of new beginnings with modern design, smooth animations, and comprehensive event information.
+Lightweight, production-ready website for the Aarambha Mahotsava 2025 event. Built with a Vite + React (TypeScript) frontend and an Express backend that serves the production build.
 
-## 🎉 Event Overview
+## Quick start (development)
 
-**Aarambha Mahotsava 2025** (आरम्भ महोत्सव) is a grand celebration of new beginnings at Sarala Birla University. The event features unlimited food, cultural performances, Mr. & Ms. Fresher competition, and much more!
+1. Clone the repo and install dependencies:
 
-- **Date**: 31st January 2025
-- **Time**: 9:30 AM onwards
-- **Venue**: Playground, Sarala Birla University
-- **Passes**: ₹600 (All Access Pass)
-
-## 🚀 Quick Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/aarambha-mahotsava-2025)
-
-### One-Click Deployment
-1. Click the "Deploy with Vercel" button above
-2. Connect your GitHub account
-3. Import the repository
-4. Deploy automatically!
-
-### Manual Deployment
-```bash
-# Clone the repository
-git clone https://github.com/your-username/aarambha-mahotsava-2025.git
-cd aarambha-mahotsava-2025
-
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel --prod
+```powershell
+git clone https://github.com/nitin-dube/-Aarambha-2025.git
+cd "final arambha"
+npm run install:all
 ```
 
-📖 **Detailed deployment guide**: See [DEPLOYMENT.md](./DEPLOYMENT.md)
+2. Run dev servers (client + server):
 
-### 🎯 Deployment Status
-- ✅ **Vercel Ready**: Fully configured for Vercel deployment
-- ✅ **Build Optimized**: Production build tested and working
-- ✅ **TypeScript**: All type errors resolved
-- ✅ **Performance**: Optimized for Core Web Vitals
-- ✅ **Mobile Ready**: Responsive design tested
-- ✅ **SEO Optimized**: Meta tags and sitemap included
-
-## 🚀 Technology Stack
-
-### Backend
-- **Node.js** (LTS) with Express server
-- **RESTful API** endpoints
-- **Static file serving** for React build
-- **CORS** and security middleware
-
-### Frontend
-- **React 18** with TypeScript
-- **Vite** for fast development and building
-- **React Router** for client-side routing
-- **Tailwind CSS** for styling
-- **Framer Motion** for smooth animations
-- **Lucide React** for icons
-
-### Development Tools
-- **ESLint** + **Prettier** for code quality
-- **TypeScript** for type safety
-- **Concurrently** for running dev servers
-
-## 📁 Project Structure
-
-```
-final arambha/
-├── server/                 # Express server
-│   ├── index.js           # Server entry point
-│   └── package.json       # Server dependencies
-├── client/                # React frontend
-│   ├── public/            # Static assets
-│   ├── src/
-│   │   ├── components/    # Reusable components
-│   │   ├── pages/         # Page components
-│   │   ├── config/        # Configuration files
-│   │   └── main.tsx       # React entry point
-│   ├── package.json       # Client dependencies
-│   └── vite.config.ts     # Vite configuration
-├── package.json           # Root package.json
-└── README.md             # This file
+```powershell
+npm run dev
 ```
 
-## 🛠️ Installation & Setup
+Open the frontend at http://localhost:5173 and the backend API at http://localhost:3000
 
-### Prerequisites
-- Node.js (LTS version)
-- npm or yarn
+## Build & run (production)
 
-### Quick Start
+1. Create a production build for the client and start the server (server will serve `client/dist`):
 
-1. **Clone and navigate to the project**:
-   ```bash
-   cd "final arambha"
-   ```
+```powershell
+npm run build
+$env:NODE_ENV='production'
+npm start
+```
 
-2. **Install all dependencies**:
-   ```bash
-   npm run install:all
-   ```
+2. Visit the site at http://localhost:3000
 
-3. **Start development servers**:
-   ```bash
-   npm run dev
-   ```
+## Deployment
 
-4. **Access the application**:
-   - Frontend: http://localhost:5173
-   - Backend API: http://localhost:3000
+This project is Vercel-ready. You can also deploy the server and static build to any static host + Node server. See `DEPLOYMENT.md` for detailed steps.
 
-### Individual Commands
+## What changed in this README
 
-```bash
-# Install root dependencies
-npm install
+- Added concise Quick Start and Build/Run instructions.
+- Kept the detailed event, architecture, and deployment docs below.
 
 # Install server dependencies
 cd server && npm install
