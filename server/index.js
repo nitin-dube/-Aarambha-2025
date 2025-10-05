@@ -45,7 +45,13 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(PORT, () => {
-  console.log(`🚀 Aarambha Mahotsava 2025 server running on port ${PORT}`);
-  console.log(`📱 Visit: http://localhost:${PORT}`);
-});
+// Export the app for serverless wrappers or local start
+module.exports = app;
+
+// If run directly, start the HTTP server (useful for local development)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Aarambha Mahotsava 2025 server running on port ${PORT}`);
+    console.log(`📱 Visit: http://localhost:${PORT}`);
+  });
+}
