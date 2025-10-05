@@ -5,7 +5,7 @@ export const content = {
   eventNameHindi: 'आरम्भ महोत्सव',
   tagline: 'Unleashing Vibrance - A Grand Celebration of New Beginnings',
   eventStatus: 'Event Started!',
-  departmentFocus: 'CSE & CA Departments Only',
+  departmentFocus: 'CSE Department Only',
   
   // Contact Information
   contacts: {
@@ -68,7 +68,7 @@ export const content = {
   eventHighlights: [
     {
       title: 'Entrance & Welcome',
-      description: 'Grand entrance ceremony and welcome for CSE & CA freshers',
+  description: 'Grand entrance ceremony and welcome for CSE freshers',
       time: '9:00 AM – 9:20 AM',
       icon: '🚪'
     },
@@ -86,7 +86,7 @@ export const content = {
     },
     {
       title: 'Mr. & Ms. Fresher',
-      description: 'Crown the most talented freshers of CSE & CA',
+  description: 'Crown the most talented freshers of CSE',
       time: '10:30 AM – 11:00 AM',
       icon: '👑'
     },
@@ -238,11 +238,11 @@ export const content = {
   // Senior Students Registration Info
   seniorStudentsInfo: {
     title: 'Senior Students Registration',
-    description: '2nd, 3rd, and 4th year CSE & CA students',
+  description: '2nd, 3rd, and 4th year CSE students',
     note: 'Registration will be available after 7th October 2025 with a new link. Please wait for the announcement.',
     timeline: 'After 7th October 2025',
     status: 'Coming Soon',
-    departments: 'CSE & CA (2nd, 3rd, 4th year)'
+  departments: 'CSE (2nd, 3rd, 4th year)'
   },
 
   // Important Notices
@@ -295,7 +295,7 @@ export const content = {
       'Cultural performances'
     ],
     importantInfo: [
-      'Valid for CSE & CA departments only',
+  'Valid for CSE department only',
       'Register now and grab your slots as they are filling out fast',
       'Limited slots available - Book your pass today!'
     ],
@@ -316,7 +316,7 @@ export const content = {
         'Event merchandise',
         'Cultural performances'
       ],
-      note: 'Only for Semester I (Freshers) - CSE & CA departments',
+  note: 'Only for Semester I (Freshers) - CSE department',
       buttonText: 'Get Your Pass',
       formUrl: 'https://rzp.io/rzp/freshers2025'
     },
@@ -329,8 +329,8 @@ export const content = {
         'Certificate of participation',
         'Networking opportunities'
       ],
-      note: 'Registration closes today at 9 PM',
-      buttonText: 'Register as Volunteer',
+  note: 'Registration closes today at 9 PM',
+  buttonText: 'Register as Volunteer',
       formUrl: 'https://forms.gle/qT68urvS59Byyobz8'
     },
     {
@@ -355,7 +355,7 @@ export const content = {
         'On-stage finale',
         'Special recognition'
       ],
-      note: 'For 1st year CSE & CA students only',
+  note: 'For 1st year CSE students only',
       buttonText: 'Register Now',
       formUrl: 'https://forms.gle/hN9NjSBZF5UFooE7A'
     }

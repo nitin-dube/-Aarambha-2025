@@ -142,7 +142,7 @@ const Layout = ({ children }: LayoutProps) => {
                   animate={{ opacity: [0.7, 1, 0.7] }}
                   transition={{ duration: 3, repeat: Infinity }}
                 >
-                  CSE & CA • Sarala Birla University
+                  CSE • Sarala Birla University
                 </motion.p>
               </div>
             </Link>
@@ -406,7 +406,7 @@ const Layout = ({ children }: LayoutProps) => {
                 <p><strong>Time:</strong> 9:00 AM - 12:30 PM</p>
                 <p><strong>Venue:</strong> SBU Auditorium (Tentative)</p>
                 <p><strong>Passes:</strong> ₹300 only</p>
-                <p><strong>Departments:</strong> CSE & CA Only</p>
+                <p><strong>Departments:</strong> CSE Only</p>
               </div>
             </div>
           </div>

@@ -92,7 +92,7 @@ const CountdownTimer = () => {
           📅 <strong>Event Date:</strong> 11th October 2025, 9:00 AM
         </p>
         <p className="text-primary-100 text-xs mt-1">
-          🎓 CSE & CA Departments Only
+          🎓 CSE Department Only
         </p>
       </div>
     </motion.div>

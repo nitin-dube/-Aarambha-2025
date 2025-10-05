@@ -155,7 +155,7 @@ const Home = () => {
               <div className="glass border-white/30 rounded-xl p-4 max-w-2xl mx-auto neon-glow">
                 <div className="flex items-center justify-center space-x-2 mb-2">
                   <span className="text-2xl">🎯</span>
-                  <h3 className="text-lg font-bold text-white">Exclusively for CSE & CA Students</h3>
+                  <h3 className="text-lg font-bold text-white">Exclusively for CSE Students</h3>
                 </div>
                 <p className="text-white/90 text-sm text-center">
                   This event is specifically designed for Computer Science Engineering (CSE) and Computer Applications (CA) department students only.
@@ -343,7 +343,7 @@ const Home = () => {
               </div>
               <div className="glass border-white/30 rounded-xl p-4 text-center">
                 <div className="text-2xl mb-2">🎓</div>
-                <p className="font-semibold text-sm">CSE & CA</p>
+                <p className="font-semibold text-sm">CSE</p>
                 <p className="text-xs text-white/80">Students Only</p>
               </div>
             </motion.div>
@@ -385,7 +385,7 @@ const Home = () => {
             >
               <p className="text-sm text-center text-white/90">
                 <strong>📍 Venue:</strong> Sarala Birla University Auditorium<br />
-                <strong>🎯 For:</strong> 1st Year CSE & CA Students Only<br />
+                <strong>🎯 For:</strong> 1st Year CSE Students Only<br />
                 <strong>💰 Pass:</strong> ₹300 Only • <strong>📅 Deadline:</strong> 7th October 2025
               </p>
             </motion.div>
@@ -411,7 +411,7 @@ const Home = () => {
             </p>
             <div className="bg-gradient-to-r from-blue-100 to-purple-100 border border-blue-300 rounded-lg p-3 max-w-xl mx-auto">
               <p className="text-blue-800 text-sm font-medium text-center">
-                🎓 <strong>CSE & CA Departments Only</strong> - Join your fellow computer science students for an unforgettable experience!
+                🎓 <strong>CSE Department Only</strong> - Join your fellow computer science students for an unforgettable experience!
               </p>
             </div>
           </motion.div>

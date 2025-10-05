@@ -98,7 +98,7 @@ const RegistrationPopup = () => {
                   <strong>Registration deadline: {content.eventDetails.registrationDeadline}</strong>
                 </p>
                 <p className="text-sm text-gray-500 mb-6">
-                  Don't miss out on Aarambha Mahotsava 2025! Limited slots available for CSE & CA students.
+                  Don't miss out on Aarambha Mahotsava 2025! Limited slots available for CSE students.
                 </p>
 
                 <div className="space-y-3">
@@ -173,7 +173,7 @@ const RegistrationPopup = () => {
                 </p>
                 <p className="text-sm text-orange-600 mb-6">
                   Showcase your talent and compete for the prestigious Mr. & Ms. Fresher title. 
-                  Only for 1st year CSE & CA students!
+                  Only for 1st year CSE students!
                 </p>
 
                 <div className="space-y-3">
@@ -233,7 +233,7 @@ const RegistrationPopup = () => {
                       🚨 Registration Closing Soon! 
                     </p>
                     <p className="text-xs opacity-90">
-                      Deadline: {content.eventDetails.registrationDeadline} • Limited slots for CSE & CA students
+                      Deadline: {content.eventDetails.registrationDeadline} • Limited slots for CSE students
                     </p>
                   </div>
                 </div>
