@@ -1,0 +1,162 @@
+You are a full-stack engineer. Build a production-ready, responsive, animated website for **Aarambha Mahotsava 2025** (Sarala Birla University). Use:
+
+- Stack: Node.js (LTS) + Express server, React + Vite for the frontend, Tailwind CSS for styling, Framer Motion for lightweight animations. Use TypeScript. ESLint + Prettier. 
+- Structure: server (Express, serve API routes & static), client (React app). One-command dev & build scripts. SEO (meta/OG tags), sitemap, robots.txt, favicon placeholders. Fully accessible (WCAG AA).
+
+### Global Design & UX
+- Branding headline includes Hindi title: **“आरम्भ महोत्सव”**.
+- Theme: “Unleashing Vibrance – A Grand Celebration of New Beginnings”. Modern, university vibe; large rounded cards, soft shadows, sticky top nav with active link highlight, smooth scroll, scroll-reveal animations, prefers-reduced-motion respected.
+- Mobile-first: perfect on phones; grid-based layout scaling up to desktop. 
+- Color palette: energetic but readable; ensure sufficient contrast. 
+- Components: Button, Badge, Card, Accordion (FAQs), Modal, Tabs, Timeline, Counter, Contact card.
+
+### Pages / Routes (CSR with anchor sections; also generate clean URLs)
+1) **Home** (hero + key CTAs)
+2) **Events** (schedule + highlights)
+3) **Committee** (Faculty & Student)
+4) **Passes** (pricing + info + “Get Passes” modal)
+5) **Registration** (cards for General, Cultural Auditions, Music, Dance)
+6) **Event Info** (Venue, Date/Time, Rules/Guidelines, FAQs)
+7) **Contact** (click-to-call & mailto)
+8) **Gallery** (placeholder grid)
+9) **404**
+
+Include a sticky quick-links bar on mobile: Home • Events • Committee • Passes • Register.
+
+### Header / Hero (Home)
+- Left: **Aarambha Logo** placeholder + **Sarala Birla University** crest placeholder.
+- Title stack:
+  - Small: “Sarala Birla University Presents”
+  - Big: **“Aarambha Mahotsava 2025”**
+  - Tagline: “Unleashing Vibrance - A Grand Celebration of New Beginnings”
+  - Hindi display: **“आरम्भ महोत्सव”**
+- Status pill: **Event Started!**
+- Primary CTAs: **Get Passes**, **View Events**
+- Secondary CTA: **Register Now**
+- Animated confetti burst on first load (respect reduced motion).
+
+### Event Highlights (Home)
+Show as animated cards with icons + time slots:
+- **Unlimited Food Fiesta** — “Indulge in a lavish spread of unlimited veg & non-veg delicacies” — **12:00 PM – 3:00 PM**
+- **Cultural Performances** — “Experience the magic of dance, music, and theatrical performances” — **3:00 PM – 5:00 PM**
+- **Mr. & Ms. Fresher** — “Showcase your talent and win the coveted title” — **5:00 PM – 7:00 PM**
+- **Open Floor Dance** — “Dance the night away with energetic music and vibrant lights” — **7:00 PM – 10:00 PM**
+
+### Events Page (detailed)
+- Hero subheader: “Venue: Playground, Sarala Birla University • Time: 9:30 AM onwards • Date: 31st January 2025”
+- Vertical timeline with the four highlight blocks above.
+- Add “Add to Calendar” (downloads .ics).
+
+### Committee Page
+Two tabs: **Faculty Committee** and **Student Committee**. Each member as a card: photo placeholder, name (big), role (subhead), department/branch (caption).
+**Faculty Committee**
+- Dr. Rajesh Kumar — Head of Committee — Computer Science Department
+- Dr. Priya Sharma — Event Coordinator — Electronics Department
+- Prof. Amit Verma — Technical Head — Mechanical Department
+- Dr. Meera Patel — Cultural Head — Civil Department
+- Dr. Sanjay Verma — Student Affairs Head — Management Department
+- Prof. Neha Kapoor — Finance Coordinator — Commerce Department
+- Dr. Anand Mishra — Logistics Head — Information Technology
+- Prof. Suresh Kumar — PR Head — Media Studies
+- Dr. Ritu Singh — Hospitality Head — Hotel Management
+**Student Committee**
+- Rahul Mehta — Student Coordinator — Final Year, CSE
+- Ananya Singh — Cultural Secretary — Third Year, ECE
+- Arjun Kapoor — Technical Secretary — Final Year, ME
+- Zara Khan — Event Coordinator — Third Year, Civil
+
+### Passes Page
+Pricing card with animated counter:
+- **₹600 only — All Access Pass**
+- **What’s Included**: Access to all events; Food & refreshments; Event merchandise; Cultural performances.
+- **Important Information**: 
+  - Valid for all departments of **SARALA BIRLA UNIVERSITY**
+  - **Collect at: Die Mensa Mess Table**
+  - **No online passes available**
+  - Payment: **Cash or UPI (offline only)**
+- **Contact for Passes**: **Akash Kumar Singh: 7255003131**
+- **For Queries**: **Chandra Bhushan: 7979937314**
+- **🎉 Limited passes available! Get yours today! 🎉**
+- **Registration Location**: Die Mensa Mess Table
+- **Timing**: 10:00 AM – 4:00 PM • **Days**: Monday to Saturday
+- **Student Coordinators**: Present at the counter
+- **Counter** showing **600 Passes Left** (animated “selling fast!” ticker).
+- CTA opens a modal clearly stating **offline collection only**.
+
+### Registration Page
+Sectioned cards with clear CTAs (link or placeholder if link not final):
+- **General Registration**
+  - “Register for Aarambha Mahotsava 2025 to join the celebration!”
+  - Benefits: Access to all events, Food and refreshments, Event merchandise, Certificate of participation
+  - Button: **Register Now**
+- **Cultural Performance Auditions**
+  - “Dance, Singing, Acting, Other creative expressions”
+  - Note: “All participants must pay the event registration fee”
+  - Button: **Audition Registration**
+- **Music Performance**
+  - Solo, Band, Instrumental, Vocal
+  - Button: **Music Registration**
+- **Dance Performance**
+  - Solo, Group, Classical, Contemporary
+  - Button: **Dance Registration**
+
+### Mr. & Ms. Fresher Promo (Home or Events)
+A prominent banner block:
+- Headline: **“Participate and claim your crown”**
+- Subtext: **Theme: University Life – A New Chapter Begins**
+- Rules & Info:
+  - **Eligibility: CSE & CA Students (1st year only for Mr. & Ms. Fresher)**
+  - **Round 1: Video Introduction (30–60 seconds)** — introduce yourself; what university life means; goals/expectations/excitement.
+  - **Judging Criteria**: Creativity, Personality, Relevance, Presentation
+  - **Last Date**: **7th October 2025, 11:00 PM (IST)**
+  - Selected participants advance to on-stage finale during **Aarambha Mahotsav 2025**.
+- Contacts: **Akash Rajput – 7255003131** • **Chandra Bhushan Kumar Singh – 7979937314**
+- Buttons: **Register Now** and a secondary link to the Google Form:
+  - Form URL placeholder: `https://forms.gle/6nKDvUJXoUjAzgcN8` (open in new tab)
+- Small handle line: `@sbu_dayz`
+- Volunteers note (show as an info alert):
+  - **Volunteers:** 2nd, 3rd & Final year students can participate as volunteers.
+  - **1st year:** Only **Mr. & Ms. Fresher** eligibility.
+
+### Event Info Page
+- **Venue**: Playground, Sarala Birla University
+- **Time**: 9:30 AM onwards
+- **Date**: 31st January 2025
+- **Rules & Guidelines**: accordion list (placeholders you generate sensibly).
+- **FAQs**: 6–8 common questions (passes, dress code, how to collect, parking, accessibility, ID needed, etc).
+
+### Contact Page / Footer
+Footer must include:
+- **Sarala Birla University Logo**
+- **Sarala Birla University**  
+  Birla Campus, Ranchi-Purulia Highway  
+  Ranchi, Jharkhand 835217
+- Phone placeholder: **+91 XXX XXX XXXX**
+- Email: **info@sbu.ac.in**
+- **Quick Links**: Home, Events, Gallery, Committee, Passes, Event Info, Schedule, Venue, Rules & Guidelines, FAQs, Contact Us
+- **Event Helpline • Support Email • Technical Support • Live Chat** (dummy endpoints)
+- Copyright: **© 2025 Aarambha Mahotsava | Sarala Birla University. All rights reserved.**
+- Click-to-call for:
+  - **Akash Kumar Singh: 7255003131**
+  - **Chandra Bhushan Kumar Singh: 7979937314**
+- Social share meta + buttons.
+
+### Interactivity
+- Smooth scroll; section in-view highlights; animated counters (passes left).
+- “Get Passes” opens modal clarifying **offline only** purchase & location/time.
+- “Claim Your Pass Today” button jumps to Passes.
+- Countdown widget (optional) to 31 Jan 2025 09:30 IST.
+- Forms: Use client-side validation; submission currently “coming soon” toast except for external Google Form link which opens in new tab.
+- Light/dark mode toggle.
+
+### Data & Config
+Create a `content.json` or TS config object containing all the above text so organizers can edit without code changes (copy all strings provided verbatim). Keep phone numbers/mail exactly as given.
+
+### Performance & Quality
+- Lighthouse 90+ on Performance/SEO/Best Practices/Accessibility.
+- Image lazy-loading; responsive images; no layout shift.
+- Deploy-ready build with instructions (README) and npm scripts:
+  - `npm run dev` (concurrently runs server + client)
+  - `npm run build` (client build + server start script)
+  - `npm run start` (serve built client + API)
+Provide the full project tree, key files (server, index.html, React pages/components), Tailwind config, and example assets placeholders (logos). Populate all sections with the exact copy from this prompt. Ensure everything renders beautifully on phones and desktops with tasteful animations.
